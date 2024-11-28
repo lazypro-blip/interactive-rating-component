@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+    font-family: overpass, sans-serif;
+}
+svg{
+    margin-top: 20px;
+}
+p{
+    font-size: 15px;
+}
+button{
+    background-color:hsl(213, 19%, 18%) ;
+    color: white;
+}
+.thankyou-state{
+    display: none;
+}
+
+.rating-state{
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    height: 45vh;
+    width: 50vh;
+    padding: 20px;
+    border-radius: 5%;
+}
+.rating-number{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;   
+}
+#submit-button{
+    width: 100%;
+    border-radius: 10rem;
+    padding: 10px ;
+}
